@@ -11,4 +11,5 @@ public interface UserService {
     UserDto currentUser(final AuthUserDetails authUserDetails);
 
     UserDto update(final UserDto.Update update, final AuthUserDetails authUserDetails);
+
 }
