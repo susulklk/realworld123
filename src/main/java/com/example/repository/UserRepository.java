@@ -1,4 +1,4 @@
-package com.example.service;
+package com.example.repository;
 
 
 import com.example.pojo.UserEntity;

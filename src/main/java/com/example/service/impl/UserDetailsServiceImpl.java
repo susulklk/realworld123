@@ -1,7 +1,7 @@
 package com.example.service.impl;
 
 import com.example.config.AuthUserDetails;
-import com.example.service.UserRepository;
+import com.example.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

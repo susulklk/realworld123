@@ -1,7 +1,8 @@
-package com.example.jwt;
+package com.example.filter;
 
 import com.example.config.AuthenticationProvider;
 
+import com.example.utils.JwtUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.security.core.context.SecurityContextHolder;
