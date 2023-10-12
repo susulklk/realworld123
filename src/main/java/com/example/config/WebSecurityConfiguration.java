@@ -44,7 +44,6 @@ public class WebSecurityConfiguration {
             .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
             .headers().frameOptions().disable(); // 在这里禁用X-Frame-Options,以便在网页上访问H2数据库
 
-
         return http.build();
     }
 }
