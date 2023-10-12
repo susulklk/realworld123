@@ -1,6 +1,6 @@
 package com.example.repository;
 
-import com.example.pojo.FollowEntity;
+import com.example.entity.FollowEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

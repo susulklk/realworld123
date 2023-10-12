@@ -4,7 +4,7 @@ import com.example.config.AuthUserDetails;
 import com.example.dto.UserDto;
 import com.example.err.Error;
 import com.example.exception.AppException;
-import com.example.pojo.UserEntity;
+import com.example.entity.UserEntity;
 import com.example.repository.UserRepository;
 import com.example.service.UserService;
 import com.example.utils.JwtUtils;
